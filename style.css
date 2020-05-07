@@ -38,3 +38,11 @@ body{
 nav a{
     color: slateblue;
 }
+.navigation{
+background-color: black;
+height: 100 px;
+width: 100px;
+}
+.index-link{
+    background-color: blanchedalmond;
+}
