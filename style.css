@@ -1,0 +1,40 @@
+h1{
+    
+    text-align: center;
+}
+p{
+    text-align: center;
+    text-indent: 60px;
+}
+h2{
+
+    text-align: center;
+}
+h3{ 
+    
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+body{
+    background-color: slategray;
+}
+.zielonyTytulSg{
+    color: springgreen;
+}
+.rozowyTytulHtml{
+    color: palevioletred;
+}
+.niebieskiTytulJs{
+    color: blue;
+}
+.czerwonyTytulCss{
+    color: red;
+}
+#top{
+    background-color: salmon;
+}
+nav a{
+    color: slateblue;
+}
