@@ -1,0 +1,18 @@
+.body{
+    background: #19647E;
+    
+}
+.header__navigation{
+    margin-top: 100px;
+    padding: 15px;
+    background: #177E89;
+    border-radius: 10px;
+    display: block;
+    
+}
+.navigation__link{
+    margin: 10px;
+    text-transform: uppercase;
+    display: inline-block;
+
+}
