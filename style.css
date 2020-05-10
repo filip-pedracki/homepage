@@ -1,18 +1,61 @@
-.body{
-    background: #19647E;
-    
+.body {
+  background: #19647e;
 }
-.header__navigation{
-    margin-top: 100px;
-    padding: 15px;
-    background: #177E89;
+.header__navigation {
+  margin-top: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
+  padding: 20px;
+  background: #177e89;
+  border-radius: 10px;
+  text-align: center;
+}
+.navigation__link {
+  margin: 10px;
+  text-transform: uppercase;
+  padding: 20px;
+  font-style: italic;
+}
+.header {
+  margin-top: 10px;
+  margin-right: 100px;
+  margin-left: 100px;
+  padding: 20px;
+  background: #177e89;
+  border-radius: 10px;
+  text-align: center;
+}
+.header--index {
+  font-style: oblique;
+}
+.section {
+  margin-top: 10px;
+  margin-right: 100px;
+  margin-left: 100px;
+  padding: 20px;
+  background: #177e89;
+  border-radius: 10px;
+  text-align: center;
+}
+.article {
+    margin-top: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding: 20px;
+    background: #177e89;
     border-radius: 10px;
-    display: block;
-    
+    text-align: center;
 }
-.navigation__link{
-    margin: 10px;
-    text-transform: uppercase;
-    display: inline-block;
-
+.footer {
+  margin-top: 10px;
+  margin-right: 100px;
+  margin-left: 100px;
+  padding: 20px;
+  background: #177e89;
+  border-radius: 10px;
+  text-align: center;
+}
+.notes__link {
+  text-align: center;
+  margin: 100px;
 }

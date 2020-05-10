@@ -1,74 +1,301 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nauka HTML</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-</head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<body id="top">
-    <header>
-        <nav>
-            <a href="index.html">Strona główna</a>
-            <a href="nauka_html.html">Nauka html</a>
-            <a href="nauka_css.html">Nauka CSS</a>
-            <a href="nauka_js.html">Nauka JS</a>
-        </nav>
+  <body class="body body--learning__about__html" id="top">
+    <header class="header__navigation">
+      <nav class="navigation">
+        <a class="navigation__link navigation__link--homepage" href="index.html"
+          >Strona główna</a
+        >
+        <a
+          class="navigation__link navigation__link--naukaHtml"
+          href="nauka_html.html"
+          >Nauka html</a
+        >
+        <a
+          class="navigation__link navigation__link--naukaCss"
+          href="nauka_css.html"
+          >Nauka CSS</a
+        >
+        <a
+          class="navigation__link navigation__link--naukaJs"
+          href="nauka_js.html"
+          >Nauka JS</a
+        >
+      </nav>
     </header>
 
-    <main>
-        <p><a href="#notatki">Przejdź do notatek</a></p>
-        <header >
-            <h1 class="rozowyTytulHtml">
-                Nauka Html
-            </h1>
-            <p>
-                <img src="1024px-HTML5_logo_and_wordmark.svg.png" alt="html">
-            </p>
-        </header>
-        <section id="notatki">
-            <h2> Notatki z nauki o html</h2>
-            <article>
+    <main class="main main--learning__about__html">
+      <a class="notes__link notes__link--html" href="#notatki"
+        >Przejdź do notatek</a
+      >
+      <header class="header">
+        <h1 class="header--learning__about__html">
+          Nauka Html
+        </h1>
+        <img class="image__html" src="1024px-HTML5_logo_and_wordmark.svg.png" alt="zdjecie_html" />
+      </header>
 
-                <p>
-                    Html to język znaczników. Html porządkuje treść zawartą na stronie. Treścią jest to wszytsko co jest
-                    zawarte na stronie np. teksty, nagłowki, liki, obrazki itp.<br />
-                    Html składa się ze znaczników, tagów i elementów. Pliki mają rozszerzeni .html, pliki html są
-                    nazywane dokumentami.<br />
-                    Znaczniki:<br />
-                    * <b>main</b> - główna część dokumentu<br />
-                    * <b>section</b> - podział dokumetu <br />
-                    * <b>article</b> - samodzielna treść, jeśli będzie osobno a nadal ma sens to jest to article <br />
-                    * <b>>header</b> - nagłówek dokumnetu/sekcji/artykułu<br />
-                    * <b>footer</b> - stopka dokumentu/sekcji<br />
-                    *<b> h1-h6</b> - tekstowe nagłowki dokumentu/sekcji/artukułu<br />
-                    *<b> p</b> - paragraf/akapit<br />
-                    *<b> br</b> - nowa linia<br />
-                    *<b> b</b> - pogrubienie tekstu (nie ma znaczenia symatycznego)<br />
-                    *<b> strong</b> - pogrubienie tekstu, ale jest tu ważność tekstu<br />
-                    *<b> i</b> - kursywa (nie ma znaczenia symatycznego)<br />
-                    * <b>em</b> - kursywa, ale ma podtekst inne znaczenie albo jest ironią itp.<br />
-                    *<b> a</b> - linki/ łącza wewnątrz dokumentu<br />
-                    *<b> nav</b> - nawigacja pomiędzy plikami<br />
-                    *<b> img</b> - dodanie obrazka<br />
-                    Atrybuty (są niewidzialne i chowamy je w znaczniku):<br />
-                    *<b> a href</b> - link na zewnątrz<br />
-                    *<b> id</b> - link wewnątrz/ nawigacja w dokumencie tj. nadanie ID postrzególnych miejsc w
-                    dokumencie i
-                    potem mośliwość przejścia do tych miejsc poprzez naciśnięcie linku<br />
-                    * img src(link do źródła obrazka) alt(nazwa obrazka aby wyszukiwarka mogła odnzaleźć) <br />
-                    <a href="#top">Wróc na górę</a>
-                </p>
-            </article>
-        </section>
-
+      <section class="section section--learning__about__html" id="notatki">
+        <h2 class="title__section__learnin__about__html">
+          Notatki z nauki o html
+        </h2>
+        <article class="article article--learning__about__html">
+          <p class="learning__about__html">
+            Lorem ipsum dolor sit amet neque. Nunc et magnis dis parturient
+            montes, nascetur ridiculus mus.<br />
+            Fusce facilisis felis, in posuere cubilia Curae, Vestibulum elit
+            ornare varius, quam tristique id,<br />
+            commodo magna, gravida iaculis augue. Sed porta elementum. Mauris
+            nec nibh pulvinar nonummy id, ante.<br />
+            Praesent odio non nunc. Phasellus lacinia eget, faucibus volutpat,
+            libero wisi, tempor auctor, urna ut<br />
+            ligula. Aliquam id enim. Praesent gravida sollicitudin, odio eget
+            lacus sit amet libero fermentum tortor.<br />
+            Phasellus sagittis lorem. Cras ornare. Nullam luctus, pellentesque
+            purus, nec libero. Nulla facilisi. Mauris urna.<br />
+            Suspendisse fringilla id, libero. Sed ac est lacus iaculis pede
+            tortor vehicula faucibus, fermentum<br />
+            laoreet, lacus magna, tincidunt molestie, neque vel odio. Donec
+            faucibus, quam. Maecenas at mauris non nulla.<br />
+            Lorem ipsum dolor sit amet neque. Nunc et magnis dis parturient
+            montes, nascetur ridiculus mus.<br />
+            Fusce facilisis felis, in posuere cubilia Curae, Vestibulum elit
+            ornare varius, quam tristique id,<br />
+            commodo magna, gravida iaculis augue. Sed porta elementum. Mauris
+            nec nibh pulvinar nonummy id, ante.<br />
+            Praesent odio non nunc. Phasellus lacinia eget, faucibus volutpat,
+            libero wisi, tempor auctor, urna ut<br />
+            ligula. Aliquam id enim. Praesent gravida sollicitudin, odio eget
+            lacus sit amet libero fermentum tortor.<br />
+            Phasellus sagittis lorem. Cras ornare. Nullam luctus, pellentesque
+            purus, nec libero. Nulla facilisi. Mauris urna.<br />
+            Suspendisse fringilla id, libero. Sed ac est lacus iaculis pede
+            tortor vehicula faucibus, fermentum<br />
+            laoreet, lacus magna, tincidunt molestie, neque vel odio. Donec
+            faucibus, quam. Maecenas at mauris non nulla.<br />
+            Lorem ipsum dolor sit amet neque. Nunc et magnis dis parturient
+            montes, nascetur ridiculus mus.<br />
+            Fusce facilisis felis, in posuere cubilia Curae, Vestibulum elit
+            ornare varius, quam tristique id,<br />
+            commodo magna, gravida iaculis augue. Sed porta elementum. Mauris
+            nec nibh pulvinar nonummy id, ante.<br />
+            Praesent odio non nunc. Phasellus lacinia eget, faucibus volutpat,
+            libero wisi, tempor auctor, urna ut<br />
+            ligula. Aliquam id enim. Praesent gravida sollicitudin, odio eget
+            lacus sit amet libero fermentum tortor.<br />
+            Phasellus sagittis lorem. Cras ornare. Nullam luctus, pellentesque
+            purus, nec libero. Nulla facilisi. Mauris urna.<br />
+            Suspendisse fringilla id, libero. Sed ac est lacus iaculis pede
+            tortor vehicula faucibus, fermentum<br />
+            laoreet, lacus magna, tincidunt molestie, neque vel odio. Donec
+            faucibus, quam. Maecenas at mauris non nulla.<br />
+            Lorem ipsum dolor sit amet neque. Nunc et magnis dis parturient
+            montes, nascetur ridiculus mus.<br />
+            Fusce facilisis felis, in posuere cubilia Curae, Vestibulum elit
+            ornare varius, quam tristique id,<br />
+            commodo magna, gravida iaculis augue. Sed porta elementum. Mauris
+            nec nibh pulvinar nonummy id, ante.<br />
+            Praesent odio non nunc. Phasellus lacinia eget, faucibus volutpat,
+            libero wisi, tempor auctor, urna ut<br />
+            ligula. Aliquam id enim. Praesent gravida sollicitudin, odio eget
+            lacus sit amet libero fermentum tortor.<br />
+            Phasellus sagittis lorem. Cras ornare. Nullam luctus, pellentesque
+            purus, nec libero. Nulla facilisi. Mauris urna.<br />
+            Suspendisse fringilla id, libero. Sed ac est lacus iaculis pede
+            tortor vehicula faucibus, fermentum<br />
+            laoreet, lacus magna, tincidunt molestie, neque vel odio. Donec
+            faucibus, quam. Maecenas at mauris non nulla.<br />Lorem ipsum dolor
+            sit amet neque. Nunc et magnis dis parturient montes, nascetur
+            ridiculus mus.<br />
+            Fusce facilisis felis, in posuere cubilia Curae, Vestibulum elit
+            ornare varius, quam tristique id,<br />
+            commodo magna, gravida iaculis augue. Sed porta elementum. Mauris
+            nec nibh pulvinar nonummy id, ante.<br />
+            Praesent odio non nunc. Phasellus lacinia eget, faucibus volutpat,
+            libero wisi, tempor auctor, urna ut<br />
+            ligula. Aliquam id enim. Praesent gravida sollicitudin, odio eget
+            lacus sit amet libero fermentum tortor.<br />
+            Phasellus sagittis lorem. Cras ornare. Nullam luctus, pellentesque
+            purus, nec libero. Nulla facilisi. Mauris urna.<br />
+            Suspendisse fringilla id, libero. Sed ac est lacus iaculis pede
+            tortor vehicula faucibus, fermentum<br />
+            laoreet, lacus magna, tincidunt molestie, neque vel odio. Donec
+            faucibus, quam. Maecenas at mauris non nulla.<br />Lorem ipsum dolor
+            sit amet neque. Nunc et magnis dis parturient montes, nascetur
+            ridiculus mus.<br />
+            Fusce facilisis felis, in posuere cubilia Curae, Vestibulum elit
+            ornare varius, quam tristique id,<br />
+            commodo magna, gravida iaculis augue. Sed porta elementum. Mauris
+            nec nibh pulvinar nonummy id, ante.<br />
+            Praesent odio non nunc. Phasellus lacinia eget, faucibus volutpat,
+            libero wisi, tempor auctor, urna ut<br />
+            ligula. Aliquam id enim. Praesent gravida sollicitudin, odio eget
+            lacus sit amet libero fermentum tortor.<br />
+            Phasellus sagittis lorem. Cras ornare. Nullam luctus, pellentesque
+            purus, nec libero. Nulla facilisi. Mauris urna.<br />
+            Suspendisse fringilla id, libero. Sed ac est lacus iaculis pede
+            tortor vehicula faucibus, fermentum<br />
+            laoreet, lacus magna, tincidunt molestie, neque vel odio. Donec
+            faucibus, quam. Maecenas at mauris non nulla.<br />Lorem ipsum dolor
+            sit amet neque. Nunc et magnis dis parturient montes, nascetur
+            ridiculus mus.<br />
+            Fusce facilisis felis, in posuere cubilia Curae, Vestibulum elit
+            ornare varius, quam tristique id,<br />
+            commodo magna, gravida iaculis augue. Sed porta elementum. Mauris
+            nec nibh pulvinar nonummy id, ante.<br />
+            Praesent odio non nunc. Phasellus lacinia eget, faucibus volutpat,
+            libero wisi, tempor auctor, urna ut<br />
+            ligula. Aliquam id enim. Praesent gravida sollicitudin, odio eget
+            lacus sit amet libero fermentum tortor.<br />
+            Phasellus sagittis lorem. Cras ornare. Nullam luctus, pellentesque
+            purus, nec libero. Nulla facilisi. Mauris urna.<br />
+            Suspendisse fringilla id, libero. Sed ac est lacus iaculis pede
+            tortor vehicula faucibus, fermentum<br />
+            laoreet, lacus magna, tincidunt molestie, neque vel odio. Donec
+            faucibus, quam. Maecenas at mauris non nulla.<br />
+            Lorem ipsum dolor sit amet neque. Nunc et magnis dis parturient
+            montes, nascetur ridiculus mus.<br />
+            Fusce facilisis felis, in posuere cubilia Curae, Vestibulum elit
+            ornare varius, quam tristique id,<br />
+            commodo magna, gravida iaculis augue. Sed porta elementum. Mauris
+            nec nibh pulvinar nonummy id, ante.<br />
+            Praesent odio non nunc. Phasellus lacinia eget, faucibus volutpat,
+            libero wisi, tempor auctor, urna ut<br />
+            ligula. Aliquam id enim. Praesent gravida sollicitudin, odio eget
+            lacus sit amet libero fermentum tortor.<br />
+            Phasellus sagittis lorem. Cras ornare. Nullam luctus, pellentesque
+            purus, nec libero. Nulla facilisi. Mauris urna.<br />
+            Suspendisse fringilla id, libero. Sed ac est lacus iaculis pede
+            tortor vehicula faucibus, fermentum<br />
+            laoreet, lacus magna, tincidunt molestie, neque vel odio. Donec
+            faucibus, quam. Maecenas at mauris non nulla.<br />Lorem ipsum dolor
+            sit amet neque. Nunc et magnis dis parturient montes, nascetur
+            ridiculus mus.<br />
+            Fusce facilisis felis, in posuere cubilia Curae, Vestibulum elit
+            ornare varius, quam tristique id,<br />
+            commodo magna, gravida iaculis augue. Sed porta elementum. Mauris
+            nec nibh pulvinar nonummy id, ante.<br />
+            Praesent odio non nunc. Phasellus lacinia eget, faucibus volutpat,
+            libero wisi, tempor auctor, urna ut<br />
+            ligula. Aliquam id enim. Praesent gravida sollicitudin, odio eget
+            lacus sit amet libero fermentum tortor.<br />
+            Phasellus sagittis lorem. Cras ornare. Nullam luctus, pellentesque
+            purus, nec libero. Nulla facilisi. Mauris urna.<br />
+            Suspendisse fringilla id, libero. Sed ac est lacus iaculis pede
+            tortor vehicula faucibus, fermentum<br />
+            laoreet, lacus magna, tincidunt molestie, neque vel odio. Donec
+            faucibus, quam. Maecenas at mauris non nulla.<br />Lorem ipsum dolor
+            sit amet neque. Nunc et magnis dis parturient montes, nascetur
+            ridiculus mus.<br />
+            Fusce facilisis felis, in posuere cubilia Curae, Vestibulum elit
+            ornare varius, quam tristique id,<br />
+            commodo magna, gravida iaculis augue. Sed porta elementum. Mauris
+            nec nibh pulvinar nonummy id, ante.<br />
+            Praesent odio non nunc. Phasellus lacinia eget, faucibus volutpat,
+            libero wisi, tempor auctor, urna ut<br />
+            ligula. Aliquam id enim. Praesent gravida sollicitudin, odio eget
+            lacus sit amet libero fermentum tortor.<br />
+            Phasellus sagittis lorem. Cras ornare. Nullam luctus, pellentesque
+            purus, nec libero. Nulla facilisi. Mauris urna.<br />
+            Suspendisse fringilla id, libero. Sed ac est lacus iaculis pede
+            tortor vehicula faucibus, fermentum<br />
+            laoreet, lacus magna, tincidunt molestie, neque vel odio. Donec
+            faucibus, quam. Maecenas at mauris non nulla.<br />Lorem ipsum dolor
+            sit amet neque. Nunc et magnis dis parturient montes, nascetur
+            ridiculus mus.<br />
+            Fusce facilisis felis, in posuere cubilia Curae, Vestibulum elit
+            ornare varius, quam tristique id,<br />
+            commodo magna, gravida iaculis augue. Sed porta elementum. Mauris
+            nec nibh pulvinar nonummy id, ante.<br />
+            Praesent odio non nunc. Phasellus lacinia eget, faucibus volutpat,
+            libero wisi, tempor auctor, urna ut<br />
+            ligula. Aliquam id enim. Praesent gravida sollicitudin, odio eget
+            lacus sit amet libero fermentum tortor.<br />
+            Phasellus sagittis lorem. Cras ornare. Nullam luctus, pellentesque
+            purus, nec libero. Nulla facilisi. Mauris urna.<br />
+            Suspendisse fringilla id, libero. Sed ac est lacus iaculis pede
+            tortor vehicula faucibus, fermentum<br />
+            laoreet, lacus magna, tincidunt molestie, neque vel odio. Donec
+            faucibus, quam. Maecenas at mauris non nulla.<br />Lorem ipsum dolor
+            sit amet neque. Nunc et magnis dis parturient montes, nascetur
+            ridiculus mus.<br />
+            Fusce facilisis felis, in posuere cubilia Curae, Vestibulum elit
+            ornare varius, quam tristique id,<br />
+            commodo magna, gravida iaculis augue. Sed porta elementum. Mauris
+            nec nibh pulvinar nonummy id, ante.<br />
+            Praesent odio non nunc. Phasellus lacinia eget, faucibus volutpat,
+            libero wisi, tempor auctor, urna ut<br />
+            ligula. Aliquam id enim. Praesent gravida sollicitudin, odio eget
+            lacus sit amet libero fermentum tortor.<br />
+            Phasellus sagittis lorem. Cras ornare. Nullam luctus, pellentesque
+            purus, nec libero. Nulla facilisi. Mauris urna.<br />
+            Suspendisse fringilla id, libero. Sed ac est lacus iaculis pede
+            tortor vehicula faucibus, fermentum<br />
+            laoreet, lacus magna, tincidunt molestie, neque vel odio. Donec
+            faucibus, quam. Maecenas at mauris non nulla.<br />Lorem ipsum dolor
+            sit amet neque. Nunc et magnis dis parturient montes, nascetur
+            ridiculus mus.<br />
+            Fusce facilisis felis, in posuere cubilia Curae, Vestibulum elit
+            ornare varius, quam tristique id,<br />
+            commodo magna, gravida iaculis augue. Sed porta elementum. Mauris
+            nec nibh pulvinar nonummy id, ante.<br />
+            Praesent odio non nunc. Phasellus lacinia eget, faucibus volutpat,
+            libero wisi, tempor auctor, urna ut<br />
+            ligula. Aliquam id enim. Praesent gravida sollicitudin, odio eget
+            lacus sit amet libero fermentum tortor.<br />
+            Phasellus sagittis lorem. Cras ornare. Nullam luctus, pellentesque
+            purus, nec libero. Nulla facilisi. Mauris urna.<br />
+            Suspendisse fringilla id, libero. Sed ac est lacus iaculis pede
+            tortor vehicula faucibus, fermentum<br />
+            laoreet, lacus magna, tincidunt molestie, neque vel odio. Donec
+            faucibus, quam. Maecenas at mauris non nulla.<br />Lorem ipsum dolor
+            sit amet neque. Nunc et magnis dis parturient montes, nascetur
+            ridiculus mus.<br />
+            Fusce facilisis felis, in posuere cubilia Curae, Vestibulum elit
+            ornare varius, quam tristique id,<br />
+            commodo magna, gravida iaculis augue. Sed porta elementum. Mauris
+            nec nibh pulvinar nonummy id, ante.<br />
+            Praesent odio non nunc. Phasellus lacinia eget, faucibus volutpat,
+            libero wisi, tempor auctor, urna ut<br />
+            ligula. Aliquam id enim. Praesent gravida sollicitudin, odio eget
+            lacus sit amet libero fermentum tortor.<br />
+            Phasellus sagittis lorem. Cras ornare. Nullam luctus, pellentesque
+            purus, nec libero. Nulla facilisi. Mauris urna.<br />
+            Suspendisse fringilla id, libero. Sed ac est lacus iaculis pede
+            tortor vehicula faucibus, fermentum<br />
+            laoreet, lacus magna, tincidunt molestie, neque vel odio. Donec
+            faucibus, quam. Maecenas at mauris non nulla.<br />Lorem ipsum dolor
+            sit amet neque. Nunc et magnis dis parturient montes, nascetur
+            ridiculus mus.<br />
+            Fusce facilisis felis, in posuere cubilia Curae, Vestibulum elit
+            ornare varius, quam tristique id,<br />
+            commodo magna, gravida iaculis augue. Sed porta elementum. Mauris
+            nec nibh pulvinar nonummy id, ante.<br />
+            Praesent odio non nunc. Phasellus lacinia eget, faucibus volutpat,
+            libero wisi, tempor auctor, urna ut<br />
+            ligula. Aliquam id enim. Praesent gravida sollicitudin, odio eget
+            lacus sit amet libero fermentum tortor.<br />
+            Phasellus sagittis lorem. Cras ornare. Nullam luctus, pellentesque
+            purus, nec libero. Nulla facilisi. Mauris urna.<br />
+            Suspendisse fringilla id, libero. Sed ac est lacus iaculis pede
+            tortor vehicula faucibus, fermentum<br />
+            laoreet, lacus magna, tincidunt molestie, neque vel odio. Donec
+            faucibus, quam. Maecenas at mauris non nulla.<br />
+            <a href="#top">Wróc na górę</a>
+          </p>
+        </article>
+      </section>
     </main>
-    <footer>
-        Strona domowa Filipa Pędracki, wszystkie treści w niej zawarte są efektem tworzenia strony ze szkolenia
-        WTF:Co ten frontend
+    <footer class="footer" id="footer">
+      Strona domowa Filipa Pędracki, wszystkie treści w niej zawarte są efektem
+      tworzenia strony ze szkolenia WTF:Co ten frontend
     </footer>
-</body>
-
+  </body>
 </html>
