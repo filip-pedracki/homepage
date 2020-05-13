@@ -55,7 +55,9 @@
   border-radius: 10px;
   text-align: center;
 }
-.notes__link {
-  text-align: center;
-  margin: 100px;
+
+.notes-link{
+  display: inline-block;
+  margin-left: 1000px;
+
 }
