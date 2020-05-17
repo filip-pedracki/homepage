@@ -7,6 +7,7 @@ console.log(`Siema nazywam się ${name} i mam ${age} lata`);
 
 function greet(age, name){
     console.log(`Cześć internauto, mam na imię ${name} i mam ${age} lat(a)`);
+  
       
 }
 
@@ -28,3 +29,4 @@ function calculateMultiplication(number, number1){
 }
 
 calculateMultiplication(3,2);
+

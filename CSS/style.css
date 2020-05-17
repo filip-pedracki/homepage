@@ -1,80 +1,42 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 .body {
-  background: #19647e;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-attachment: fixed;
+
+  background-size: cover;
+  font-family: Helvetica;
 }
 .header-navigation {
-  border-width: 5px;
-  border-style: solid;
+  background-image: url("../IMG/zdjęcie_z_rogiem.jpg");
+  display: flex;
+  flex-direction: column;
   
-  margin-top: 50px;
-  margin-right: 100px;
-  margin-left: 100px;
-  padding: 20px;
-  background: #177e89;
-  border-radius: 10px;
-  margin: 0 auto;
-  position: sticky;
-  top: 0px;
-}
-.main {
-  max-width: 1000px;
-  margin: 0 auto;
-}
-.navigation__link {
-  
+  min-height: 100vh;
 
-  margin: 10px;
-  text-transform: uppercase;
-  padding: 20px;
-  font-style: italic;
-}
-.header {
-  margin: 20px;
-  padding: 20px;
-  background: #177e89;
-  border-radius: 10px;
-  text-align: center;
-  border-width: 5px;
-  border-style: solid;
 }
 
-.section {
-  border-width: 5px;
-  border-style: solid;
-  margin: 0 auto;
-  padding: 20px;
-  background: #177e89;
-  border-radius: 10px;
-  
-}
-.article {
-  text-align: center;
-   margin: 0px auto;
-  padding: 20px;
-  background: #177e89;
-  border-radius: 10px;
-  
-}
-.footer {
-  border-width: 5px;
-  border-style: solid;
-  margin-top: 10px;
-  margin-right: 100px;
-  margin-left: 100px;
-  padding: 20px;
-  background: #177e89;
-  border-radius: 10px;
-  
-}
+.navigation__link{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 80px;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
 
-.notes-link {
-  display: inline-block;
-  margin-left: 1000px;
-  background-color: lightcyan;
 }
- .title{
-   text-align: center;
- }
- .section__about-me{
-   text-align: center;
- }
+.navigation{
+  background-color: black;
+  margin-left: 80%;
+}
