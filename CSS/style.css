@@ -9,34 +9,53 @@ html {
 }
 
 .body {
+ 
+
+}
+.main {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 25% 25% 25% 25%;
+  height: 100vh;
+}
+.header-navigation {
+  border: black;
+  border-width: 1px;
+  border-style: solid;
+  padding: 16px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-attachment: fixed;
-
-  background-size: cover;
-  font-family: Helvetica;
-}
-.header-navigation {
-  background-image: url("../IMG/zdjęcie_z_rogiem.jpg");
-  display: flex;
-  flex-direction: column;
+  align-items: center;
+  width: 1000px;
   
-  min-height: 100vh;
-
+  
+ 
+  
 }
-
-.navigation__link{
+.navigation {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  padding: 80px;
-  font-size: 20px;
-  color: white;
-  text-decoration: none;
-
 }
-.navigation{
-  background-color: black;
-  margin-left: 80%;
+.navigation__link {
+  padding: 16px;
+  font-family: "Ubuntu", sans-serif;
+}
+.main__header {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.main__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section {
+}
+.article {
+}
+.footer {
 }

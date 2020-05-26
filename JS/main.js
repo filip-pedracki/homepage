@@ -19,7 +19,7 @@ const element = document.querySelector(querySelectorContent);
 element.innerHTML = content;
 }
 
-createContent('.section__about-me--js', 'Coś o mnie')
+createContent('.section__about-me--js', 'coś o tej ferajnie')
 
 
 function calculateMultiplication(number, number1){
