@@ -1,75 +1,56 @@
 <!DOCTYPE html>
 <html lang="pl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>homepage</title>
-    <link rel="stylesheet" href="CSS/style.css">
-  </head>
 
-  <body class="body  id="top">
-    <header class="header-navigation">
-      <nav class="navigation">
-        <a class="navigation__link" href="index.html"
-          >Strona główna</a
-        >
-        <a
-          class="navigation__link"
-          href="nauka_html.html"
-          >Nauka html</a
-        >
-        <a
-          class="navigation__link"
-          href="nauka_css.html"
-          >Nauka CSS</a
-        >
-        <a
-          class="navigation__link"
-          href="nauka_js.html"
-          >Nauka JS</a
-        >
-      </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>homepage</title>
+  <link rel="stylesheet" href="CSS/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+  <nav class="navigation">
+    <a class="navigation__link" href="index.html">Strona główna</a>
+    <a class="navigation__link" href="nauka_html.html">Nauka html</a>
+    <a class="navigation__link" href="nauka_css.html">Nauka CSS</a>
+    <a class="navigation__link" href="nauka_js.html">Nauka JS</a>
+  </nav>
+
+
+  <main class="main">
+    <header class="main__header">
+      <h1 class="main__title">
+        Witam cię na mojej pierwszej stronie internetowej
+      </h1>
     </header>
 
-    <main class="main">
-      <header class="main__header">
-        <h1 class="main__title">
-          Witam cię na mojej pierwszej stronie internetowej
-        </h1>
-      </header>
+    <section class="section">
+      <h2 class="section__about-me">
+        Coś o mnie
+      </h2>
+      <article class="article">
+        <p class="article__disription">
+          Cześć. Nazywam się Filip i lubię grać w gry komputerowe i uczyć się nowych
+          rzeczy. Z zawodu jestem muzykiem orkiestrowym waltornistą oraz
+          kierowcą autobusu MZA w Warszawie.
+          Teraz uczę się Frontendu i chciałbym w przyszłości zostać Frontend Developerem,
+          ale na razie przede mną długa droga. W ramach szkolenia chciałbym stworzyć stronę o autobusach, które jeździły
+          i jeżdzą po Warszawie.
+        </p>
+      </article>
+      <div>
+        <img class="image-index" src="/IMG/zdjęcie_z_rogiem.jpg" alt="zdjecie Filip">
+      </div>
+    </section>
 
-      <section class="section">
-        <h2 class="section__about-me">
-          Coś o mnie
-        </h2>
-        <article class="article">
-          <p class="article__disription">
-            commodo magna, gravida iaculis augue. Sed porta elementum. Mauris
-            nec nibh pulvinar nonummy id, ante.<br />
-            Praesent odio non nunc. Phasellus lacinia eget, faucibus volutpat,
-            libero wisi, tempor auctor, urna ut<br />
-            ligula. Aliquam id enim. Praesent gravida sollicitudin, odio eget
-            lacus sit amet libero fermentum tortor.<br />
-            Phasellus sagittis lorem. Cras ornare. Nullam luctus, pellentesque
-            purus, nec libero. Nulla facilisi. Mauris urna.<br />
-            Suspendisse fringilla id, libero. Sed ac est lacus iaculis pede
-            tortor vehicula faucibus, fermentum<br />
-            
-            <img
-              class="image"
-              src="IMG/zdjecie.jpeg"
-              alt="zdjecie index"
-            /><br />
-            <a class="back-to-top" href="#top">Wróć na górę</a>
-          </p>
-        </article>
-      </section>
-    </main>
+  </main>
 
-    <footer class="footer" id="footer">
-      Strona domowa Filipa Pędracki, wszystkie treści w niej zawarte są efektem
-      tworzenia strony ze szkolenia WTF:Co ten frontend
-    </footer>
-    <script src="main.js"></script>
-  </body>
+  <footer class="footer" id="footer">
+    Strona domowa Filipa Pędracki, wszystkie treści w niej zawarte są efektem
+    tworzenia strony ze szkolenia WTF:Co ten frontend
+  </footer>
+  <script src="main.js"></script>
+</body>
+
 </html>
